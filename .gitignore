@@ -4,7 +4,7 @@ target/
 !**/src/test/**/target/
 
 ### IntelliJ IDEA ###
-.idea
+/.idea
 
 ### Eclipse ###
 .apt_generated
@@ -27,10 +27,14 @@ build/
 
 ### VS Code ###
 .vscode/
+/.mvn
 
-test.iml
-pom.xml
-.mvn
+/test.iml
+/pom.xml
+
+mvnw
+
+mvnw.cmd
 
 ### Mac OS ###
 .DS_Store
